@@ -1138,7 +1138,7 @@ class CF7_Working_PDF_Engine {
 
             $pdf->SetFont($template['font_family'], 'B', 11);
             $pdf->SetTextColor(20, 20, 20);
-            $pdf->MultiCell(190, 6, 'For each procedure you\'re interested in, please briefly describe what concerns you about that area and what change you\'re hoping to achieve. This will help Dr. Foulad assess whether each procedure is appropriate for your goals.', 0, 'L', false);
+            $pdf->MultiCell(190, 6, 'For each procedure you\'re interested in, please briefly describe what concerns you about that area and what change you\'re hoping to achieve. This will help Dr. Foulad assess whether each procedure is appropriate for your goals.*', 0, 'L', false);
             $pdf->Ln(2);
 
             // Description in a light gray box
