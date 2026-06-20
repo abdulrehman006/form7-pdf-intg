@@ -1,0 +1,373 @@
+/* Custom CSS for Divi (Add to Divi Theme Options > Custom CSS or child theme style.css) */
+
+div#mob-header.et_pb_sticky
+ {
+    left: 0px !important;
+}
+.dsm-contact-form-7-select select
+ {
+    background-color: #fff !important;
+}
+
+.cf7-row {
+     
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+}
+.et_pb_contact_select{
+	 background:#fff;
+}
+
+label.cont {
+    font-weight: normal;
+    display: flex;
+}
+.wpcf7-form input[type=checkbox]
+ {
+    -webkit-appearance: checkbox !important;
+}
+.wpcf7-form input[type=radio] {
+    -webkit-appearance: radio !important;
+}
+.wpcf7-select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.dsm-contact-form-7-select:before {
+	 font-family: ETmodules !important;
+	content: "\33" !important;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* Ensures clicks pass through to select */
+}
+
+.wpcf7-select {
+  padding-right: 30px !important; /* Space for arrow */
+}
+
+
+
+.wpcf7-list-item {
+    display: block !important;
+   
+}
+.submitting-text{
+	display:none;
+}
+.wpcf7-form.submitting .et_pb_contact_form  .wpcf7-submit{
+	display:none;
+}
+.wpcf7-form.submitting .submitting-text{
+	display:block;
+	color: red;
+	
+}
+.et_pb_contact_form_container .et_pb_contact_form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.et_pb_contact_form .cf7-upload-wrapper span.wpcf7-form-control-wrap {
+   
+    position: absolute;
+    bottom: 0;
+    z-index: 9999;
+    width: 100%;
+    left: 0;
+}
+
+
+.et_pb_contact_form .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000 !important;
+    margin: 20px 0 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.et_pb_contact_form .et_pb_contact_field {
+    margin-bottom: 15px;
+}
+
+.et_pb_contact_form label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.et_pb_contact_form input[type="text"],
+.et_pb_contact_form input[type="email"],
+.et_pb_contact_form input[type="tel"],
+.et_pb_contact_form input[type="date"],
+.et_pb_contact_form input[type="number"],
+.et_pb_contact_form select,
+.et_pb_contact_form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    transition: border-color 0.3s;
+}
+
+.et_pb_contact_form input:focus,
+.et_pb_contact_form select:focus,
+.et_pb_contact_form textarea:focus {
+    border-color: #0073aa;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 115, 170, 0.3);
+}
+
+
+
+.et_pb_contact_form input[type="checkbox"],
+.et_pb_contact_form input[type="radio"] {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.et_pb_contact_form .wpcf7-checkbox label,
+.et_pb_contact_form .wpcf7-radio label {
+    font-size: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.et_pb_contact_form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.et_pb_contact_form .wpcf7-submit, .et_pb_contact_form .wpcf7-submit:hover {
+  
+    padding: 12px 24px !important;
+    border: none !important;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.et_pb_contact_form .wpcf7-submit:hover:after{
+	display:none;
+	
+}
+.et_pb_contact_form .wpcf7-response-output {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+
+@media (max-width: 767px) {
+    .et_pb_contact_form .et_pb_contact_field_half {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+
+
+#other-procedure-wrapper {
+    margin-top: 10px;
+}
+.et_pb_contact_form .wpcf7-not-valid-tip
+ {
+    color: #ff0000;
+    font-size: 16px !important;
+    font-weight: bold !important;
+   
+}
+#other-procedure {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.wpcf7 form .wpcf7-response-output {
+    font-size: 20px !important;
+    font-weight: bold;
+    line-height: 25px;
+}
+.et_pb_column.et_pb_column_1_3.cf7-image-upload {    
+    background: #fff;
+    text-align: center;
+    padding: 15px 15px 0 15px;
+}
+.cf7-image-upload-container {
+    margin-top: 30px;
+}
+
+.et_pb_contact_form .et_pb_column.et_pb_column_1_1
+ {
+    width: 100%;
+}
+.cf7-image-file-input {
+    display: none;
+}
+
+.cf7-upload-wrapper {
+    position: relative;
+   width: 260px;
+    height: 350px;
+
+    border: 2px dashed #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cf7-upload-wrapper:hover {
+    border-color: #999;
+}
+
+.cf7-upload-placeholder {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cf7-image-preview {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.cf7-image-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cf7-upload-progress {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    display: none;
+}
+
+.progress-bar {
+    height: 3px;
+    background: #4CAF50;
+    width: 0%;
+    transition: width 0.3s ease;
+}
+
+.cf7-remove-image {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+    z-index: 10;
+}
+
+.cf7-remove-image:hover {
+    background: #d32f2f;
+}
+
+/* Validation Modal */
+.cf7-validation-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+    padding: 20px;
+    box-sizing: border-box;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.cf7-validation-modal {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px 35px;
+    max-width: 450px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    animation: cf7ModalFadeIn 0.2s ease-out;
+}
+
+@keyframes cf7ModalFadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to   { opacity: 1; transform: scale(1); }
+}
+
+.cf7-validation-modal p {
+    margin: 0 0 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.cf7-validation-modal button {
+    background: #D0A959;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    transition: background-color 0.2s ease;
+}
+
+.cf7-validation-modal button:hover,
+.cf7-validation-modal button:focus {
+    background: #b8923e;
+    outline: none;
+}
+
+.cf7-validation-modal button:focus-visible {
+    outline: 2px solid #D0A959;
+    outline-offset: 2px;
+}
+
+@media (max-width: 480px) {
+    .cf7-validation-modal {
+        padding: 24px 20px;
+    }
+    .cf7-validation-modal p {
+        font-size: 14px;
+    }
+    .cf7-validation-modal button {
+        width: 100%;
+        padding: 12px;
+    }
+}
