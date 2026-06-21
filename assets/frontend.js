@@ -167,13 +167,10 @@
      * Show validation errors in a centered modal when required fields are missing
      */
     function initValidationAlert() {
-        document.addEventListener('wpcf7invalid', function(event) {
-            var detail = event.detail;
-            var message = 'Please fill in all required fields.';
-
-            if (detail && detail.apiResponse && detail.apiResponse.message) {
-                message = detail.apiResponse.message;
-            }
+        document.addEventListener('wpcf7invalid', function() {
+            // wpcf7invalid fires only for validation/required-field errors,
+            // so always show the client-approved message (independent of CF7 settings).
+            var message = 'A few required fields are still missing. Please look for the fields marked in red to continue.';
 
             showCenteredModal(message);
         }, false);
