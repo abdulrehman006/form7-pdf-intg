@@ -167,13 +167,16 @@
      * Show validation errors in a centered modal when required fields are missing
      */
     function initValidationAlert() {
-        document.addEventListener('wpcf7invalid', function() {
-            // wpcf7invalid fires only for validation/required-field errors,
-            // so always show the client-approved message (independent of CF7 settings).
-            var message = 'A few required fields are still missing. Please look for the fields marked in red to continue.';
+        // wpcf7invalid fires only for validation/required-field errors, so always show
+        // the client-approved message (independent of CF7 settings).
+        var message = 'A few required fields are still missing. Please look for the fields marked in red to continue.';
 
+        // Bind via jQuery: .on() catches BOTH native bubbling CustomEvents and
+        // jQuery-triggered events, so it works across all Contact Form 7 versions.
+        // (A plain document.addEventListener misses jQuery-triggered events.)
+        $(document).on('wpcf7invalid', function() {
             showCenteredModal(message);
-        }, false);
+        });
     }
 
     /**

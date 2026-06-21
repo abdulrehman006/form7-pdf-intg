@@ -3,7 +3,7 @@
  * Plugin Name: Contact Form 7 Working PDF Generator
  * Plugin URI: https://github.com/cf7-pdf/working-generator
  * Description: Multi-purpose PDF generator for Contact Form 7 with image handling, email tracking, and auto-cleanup.
- * Version: 4.1.4
+ * Version: 4.1.5
  * Requires at least: 5.0
  * Tested up to: 6.5
  * Requires PHP: 7.4
@@ -22,7 +22,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Define plugin constants
-define('CF7_WORKING_PDF_VERSION', '4.1.4');
+define('CF7_WORKING_PDF_VERSION', '4.1.5');
 define('CF7_WORKING_PDF_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('CF7_WORKING_PDF_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('CF7_WORKING_PDF_PLUGIN_BASENAME', plugin_basename(__FILE__));
