@@ -500,7 +500,7 @@ class CF7_Working_PDF_Engine {
         // Fields to completely exclude from PDF output
         $excluded_fields = array(
             'preferred-contact-method', 'preferred-contact', 'contact-method',
-            'best-time-to-contact', 'best-time', 'time-to-contact',
+            'best-time-to-contact', 'best-time', 'time-to-contact', 'contact-time',
         );
 
         foreach ($submission_data as $key => $value) {
